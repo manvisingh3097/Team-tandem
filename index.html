@@ -330,17 +330,17 @@
 
 <!-- <script>
   function glitter(event){
-    let i = document.createElement('i');
-    i.style.left = (event.pageX) + 'px';
-    i.style.top = (event.pageY) + 'px' ;
-    i.style.scale = `${Math.random() * 2 + 1 }`;
-    i.style.setProperty('--x', getRandomTransitionValue());
-    i.style.setProperty('--y', getRandomTransitionValue());
+    let cursor = document.createElement('i');
+    cursor.style.left = (event.pageX) + 'px';
+    cursor.style.top = (event.pageY) + 'px' ;
+    cursor.style.scale = `${Math.random() * 2 + 1 }`;
+    cursor.style.setProperty('--x', getRandomTransitionValue());
+    cursor.style.setProperty('--y', getRandomTransitionValue());
 
     document.body.appendChild(i);
 
     setTimeout(() => {
-      document.body.removeChild(i);
+      document.body.removeChild(cursor);
     },2000)
   }
   function getRandomTransitionValue(){
@@ -350,7 +350,7 @@
   
   document.addEventListener('mousemove', glitter);
 </script>
-     -->
+      -->
     
   
   </body>

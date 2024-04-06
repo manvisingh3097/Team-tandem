@@ -853,9 +853,9 @@ hr {
 
 i {
     position: absolute;
-    width: 2px;
-    height: 2px;
-    background: rgb(198, 188, 188);
+    width: 4px;
+    height: 4px;
+    background: rgb(184, 30, 30);
     pointer-events: none;
     /* animation: animate 2s linear forwards; */
 }
