@@ -1,0 +1,48 @@
+
+
+
+
+
+
+
+
+
+.container .card:hover .content {
+ opacity: 1;
+ transform: translateY(-20px);
+}
+
+
+
+
+
+
+
+.container .card .sci {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.container .card .sci li{ 
+list-style: none;
+margin: 0 10px;
+transform: translateY(0);
+transition: 0.5s;
+transition-delay: calc(0.1s * var(--i));
+}
+
+.container .card:hover .sci li{
+    transform: translateY(0px);
+}
+
+.container .card .sci li a{
+   color: red;
+   font: 25px;
+}
+
